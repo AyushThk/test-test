@@ -6,8 +6,8 @@
 <body>
 
 <?php
-$hostname = 'p3plzcpnl492196.prod.phx3.secureserver.net'; // or the hostname provided by your hosting
-$username = 'ejz3gf3j1zau'; // your MySQL username
+$hostname = 'p3plzcpnl489458.prod.phx3.secureserver.net';
+$username = 'drf84picgqsl'; // your MySQL username
 $password = 'niriadmin@2023'; // your MySQL password
 $database = 'niridb'; // your MySQL database name
 
@@ -22,7 +22,7 @@ if ($con->connect_error) {
 echo "Connected successfully<br>";
 
 // Fetch and display data
-$query = "SELECT * FROM mytest"; // Replace 'your_table' with your actual table name
+$query = "SELECT * FROM testdb"; // Replace 'your_table' with your actual table name
 
 $result = $con->query($query);
 
