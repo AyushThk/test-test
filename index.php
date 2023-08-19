@@ -28,9 +28,9 @@ $result = $con->query($query);
 
 if ($result->num_rows > 0) {
     echo "<table>";
-    echo "<tr><th>ID</th><th>Name</th><th>Email</th></tr>";
+    echo "<tr><th>ID</th><th>Name</th></tr>";
     while ($row = $result->fetch_assoc()) {
-        echo "<tr><td>" . $row['id'] . "</td><td>" . $row['name'] . "</td><td>" . $row['email'] . "</td></tr>";
+        echo "<tr><td>" . $row['id'] . "</td><td>" . $row['name'] "</td></tr>";
     }
     echo "</table>";
 } else {
