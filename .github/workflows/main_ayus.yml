@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'ayus'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_31FC50FCD609474CA8BBD04BB949E471 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5DC11BBBB2FE4ACF8FC27CA6AF19B3C0 }}
           package: .
